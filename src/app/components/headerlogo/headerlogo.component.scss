@@ -1,0 +1,11 @@
+.header__top {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--global-padding);
+}
+
+
+.header__top__logo--container {
+    margin-top: 40px;
+}

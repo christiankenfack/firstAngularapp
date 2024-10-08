@@ -1,0 +1,41 @@
+.middle-section {
+    padding: 40px
+}
+
+.title--candidature {
+    border-left: 2px solid red;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    color: #c4c4c4;
+}
+
+tr {
+    border: 1px solid #c4c4c4;
+}
+
+.td--blue {
+    color: blue;
+}
+
+.td--red {
+    color: red;
+}
+
+.td--green {
+    color: green;
+}

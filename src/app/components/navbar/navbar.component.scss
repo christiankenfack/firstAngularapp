@@ -1,0 +1,20 @@
+.link--container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #646464;
+    height: 50px;
+}
+
+.link--container--text {
+    display: flex;
+    border-left: 2px solid #c4c4c4;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.link--container--text:hover {
+    background-color: #c4c4c4;
+}
