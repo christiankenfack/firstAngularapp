@@ -1,0 +1,36 @@
+.image--container {
+    width: 100%;
+    padding: 0px 65px 50px 65px;
+    box-sizing: border-box;
+}
+
+.image--container_img {
+    background-image: url(../../../../../../public/img/men.png);
+    background-repeat: no-repeat;
+
+}
+
+.image--continer_text_BGred {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    color: white;
+    font-size: 23px;
+
+}
+
+.image--continer_text_BGred_borderleft {
+    border-left: 2px solid white;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.image--continer_text_BGred_lines {
+    margin-left: 30px;
+    margin-top: 10px;
+}

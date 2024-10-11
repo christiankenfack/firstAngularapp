@@ -1,0 +1,72 @@
+<app-form-page-header/>
+<section class="middle__section">
+    <div class="middle__section--head">
+        <span class="middle__section--head--grayText">Offres disponibles ></span>
+        <span class="middle__section--head--blackText">Offres #324</span>
+    </div>
+    <div class="middle__section--title--offres">Offre #324: International Marketing Project Manager H/F</div>
+    <form class="middle__section--form">
+        <label for="name">NOM</label>
+        <input type="text" id="name" name="name" [(ngModel)]="user.name" />
+
+        <label for="surname">PRENOM</label>
+        <input type="text" id="surname" name="surname" [(ngModel)]="user.surname" />
+
+        <div class="middle__section--form--birthinformation">
+            <div class="middle__section--form--birthinformation--items">
+                <label for="bithdate">DATE DE NAISSANCE</label>
+                <input type="date" id="bithdate" name="bithdate"[(ngModel)]="user.birthdate"/>
+            </div>
+            <div class="middle__section--form--birthinformation--items">
+                <label for="birthlocation">LIEU DE NAISSANCE</label>
+                <input type="text" id="bithlocation" name="birthlocation" [(ngModel)]="user.birthlocation" />
+            </div>
+        </div>
+
+        <label for="email">ADRESSE E-MAIL</label>
+        <input type="email" id="email" name="email" [(ngModel)]="user.email"/>
+
+        <label for="studylevel">NIVEAU D'ETUDES</label>
+        <input type="text" id="studylevel" name="studylevel" [(ngModel)]="user.studylevel"/>
+
+        <label for="fieldsofstudy">DOMAINE D'ETUDES</label>
+        <input type="text" id="fieldsofstudy" name="fieldsofstudy" [(ngModel)]="user.fieldsofstudy"/>
+
+        <div class="middle__section--form--dowlaodfile--container">
+            <label for="cv">Telecharger votre CV:</label>
+            <input type="file" id="cv" name="cv" [(ngModel)]="user.filecv"/>
+            <button class="middle__section--form--dowlaodfile--container--btn red" (click)="Onsubmit()">UPLOAD</button>
+            <button class="middle__section--form--dowlaodfile--container--btn gray">APERCU</button>
+        </div>
+        <div class="middle__section--form--experiences--container">
+          <p>Entrez vos experences professionnelles: </p>
+          <table>
+            <thead>
+                <tr>
+                    <th>DEBUT </th>
+                    <th>FIN</th>
+                    <th>INTITULE DU POSTE</th>
+                    <th>DESCRIPTION ET REALISATION</th>
+                    <th>SOCIETE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="trBody">
+                    <td>JAN 2015</td>
+                    <td>MARS 2018</td>
+                    <td>Controleur de Gestion</td>
+                    <td class="special-td">Déploiement de la stratégie 
+                        financière définie par la Direction. 
+                        Contrôle et gestion prévisionnelle 
+                        des coûts, analyse des écarts</td>
+                    <td>BANQUE NATIONAL</td>
+                </tr>
+                <tr class="trBody" >
+                    <td class="last-tr"colspan="5">+ Ajouter</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+
+    </form>
+</section>

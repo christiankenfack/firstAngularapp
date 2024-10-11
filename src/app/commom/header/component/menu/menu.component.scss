@@ -1,0 +1,17 @@
+.menu__user {
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__user--items {
+    padding: 7px;
+    flex-grow: 1;
+}
+
+.menu__user--items:hover {
+    background-color: rgb(166, 166, 166);
+}

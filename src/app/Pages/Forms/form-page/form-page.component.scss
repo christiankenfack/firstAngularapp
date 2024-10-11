@@ -1,0 +1,134 @@
+.middle__section {
+    padding: 0 100px;
+}
+
+.middle__section--head--grayText {
+    color: #c4c4c4;
+}
+
+.middle__section--title--offres {
+    border-left: 2px solid red;
+    padding-left: 20px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.middle__section--form {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8696A6;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 25px;
+}
+
+input {
+    width: 360px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #8696A6;
+}
+
+.middle__section--form--birthinformation {
+    display: flex;
+    gap: 20px;
+}
+
+.middle__section--form--birthinformation input {
+    width: 170px;
+}
+
+.middle__section--form--birthinformation--items {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle__section--form--dowlaodfile--container {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+    border-top: 1px solid #646464;
+    border-bottom: 1px solid #646464;
+    margin-top: 40px;
+    padding: 20px 0px;
+}
+
+.middle__section--form--dowlaodfile--container label {
+    color: black;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+#cv {
+    outline: none;
+    border: 1px solid #6f6f6f;
+    background-color: #898989;
+    width: 120px;
+
+}
+
+.middle__section--form--dowlaodfile--container--btn {
+    border: 1px solid;
+    width: 130px;
+    height: 30px;
+
+}
+
+.red {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.red:active {
+    background-color: rgb(91, 0, 0);
+}
+
+.gray {
+    color: #000000;
+}
+
+.middle__section--form--experiences--container {
+    border-bottom: 1px solid #646464;
+    padding: 40px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+
+}
+
+th {
+    color: #c4c4c4;
+margin-top: 30px;
+}
+
+tr {
+    border: 1px solid #c4c4c4;
+}
+.trBody:hover{
+    background-color: #d4d4d4;
+}
+
+.special-td {
+    width: 400px;
+}
+.last-tr{
+    color: red;
+ text-align: center;
+}
